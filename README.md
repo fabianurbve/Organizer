@@ -1,4 +1,4 @@
-Organizer Tool v1.0
+Organizer Tool v1.1
 ===================
 
 Este paquete incluye:
@@ -79,3 +79,4 @@ Autor: Fabian
 Versión: 1.1  
 
 Fecha: Octubre 
+
