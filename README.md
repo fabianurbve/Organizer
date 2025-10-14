@@ -65,6 +65,17 @@ Advertencias importantes:
 
 ❌ No ejecutes "INSTALAR.bat" desde otra ubicación. Siempre debe ejecutarse desde la carpeta raíz del proyecto.
 
+## 🆕 Cambios en la versión 1.1
+
+- Interfaz mejorada
+- Comandos con nombres legibles
+- Corrección en el sistema de categorías (formato de comandos)
+- Registro de movimientos más robusto para deshacer
+- Manejo de codificación más seguro
+- Lógica de limpieza de duplicados refinada
+- Uso de `pathlib`, `argparse`, y función `main()` para mayor claridad y portabilidad
+
 Autor: Fabian  
-Versión: 1.0  
+Versión: 1.1  
+
 Fecha: Octubre 
