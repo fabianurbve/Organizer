@@ -1,4 +1,4 @@
-Organizer Tool v1.1
+Organizer Tool v1.2
 ===================
 
 Este paquete incluye:
@@ -16,7 +16,8 @@ Este paquete incluye:
 - config_editor.py → Interfaz gráfica para editar la configuración (no modificar)
 - config_editor.exe → Ejecutable principal
 - icon.ico → Ícono utilizado en accesos directos
-- INSTALAR.bat → Script que crea accesos directos en el escritorio
+- INSTALAR.py → Script que crea accesos directos
+- INSTALAR.exe → Ejecutable principal
 
 🖥️ Requisitos del sistema:
 - Sistema operativo: Windows 10 o superior
@@ -38,8 +39,8 @@ Antes de ejecutar Organizer Tool, asegurate de lo siguiente:
 ✔ No estás ejecutando desde una unidad de red, nube o carpeta sincronizada
 
 📦 Instalación:
-1. Extraé el contenido del paquete en una carpeta local.
-2. Ejecutá "INSTALAR.bat" desde la raíz del proyecto.
+1. Extraiga el contenido del paquete en una carpeta local.
+2. Ejecute "INSTALAR.exe" desde la raíz del proyecto.
 3. Se crearán tres accesos directos en tu escritorio:
    - Organizer Tool → abre la aplicación principal
    - Organizados → acceso directo a la carpeta de archivos organizados
@@ -58,12 +59,13 @@ Advertencias importantes:
    - organizer.py
    - config_editor.py
    - icon.ico
+   - INSTALAR.py
 
 ❌ No edites los archivos `.py` ni `.json` a menos que sepas exactamente lo que estás haciendo. Alterarlos puede romper la funcionalidad del programa.
 
 ❌ No borres ni renombres las carpetas "organizados", "desorganizados" o "logs". Son utilizadas por la aplicación y el script de instalación.
 
-❌ No ejecutes "INSTALAR.bat" desde otra ubicación. Siempre debe ejecutarse desde la carpeta raíz del proyecto.
+❌ No ejecutes "INSTALAR.exe" desde otra ubicación. Siempre debe ejecutarse desde la carpeta raíz del proyecto.
 
 ## 🆕 Cambios en la versión 1.1
 
@@ -75,8 +77,11 @@ Advertencias importantes:
 - Lógica de limpieza de duplicados refinada
 - Uso de `pathlib`, `argparse`, y función `main()` para mayor claridad y portabilidad
 
+## 🆕 Cambios en la versión 1.2
+
+- Scrollbar añadida a la interfaz
+- Funcion de instalar mejorada
+
 Autor: Fabian  
-Versión: 1.1  
-
+Versión: 1.2 
 Fecha: Octubre 
-
